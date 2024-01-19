@@ -10,9 +10,9 @@ import { AppService } from 'src/app/app.service';
 })
 export class ImageProcessingWaitingContentComponent {
   previewImage: any =
-    'https://images.pexels.com/photos/2121640/pexels-photo-2121640.jpeg?auto=compress&cs=tinysrgb&w=500&dpr=2';
+    'assets/images/pexels-photo-2121640.jpeg';
   outputImage: any =
-    'https://images.pexels.com/photos/2121640/pexels-photo-2121640.jpeg?auto=compress&cs=tinysrgb&w=500&dpr=2';
+    'assets/images/pexels-photo-2121640.jpeg';
   myForm!: FormGroup;
   file: File | null = null;
   percent: any = 0;

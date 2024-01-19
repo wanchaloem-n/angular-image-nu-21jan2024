@@ -8,8 +8,8 @@ import { AppService } from 'src/app/app.service';
   styleUrls: ['./image-processing-content.component.css']
 })
 export class ImageProcessingContentComponent {
-  previewImage: any = "https://images.pexels.com/photos/2121640/pexels-photo-2121640.jpeg?auto=compress&cs=tinysrgb&w=500&dpr=2";
-  outputImage: any = "https://images.pexels.com/photos/2121640/pexels-photo-2121640.jpeg?auto=compress&cs=tinysrgb&w=500&dpr=2";
+  previewImage: any = 'assets/images/pexels-photo-2121640.jpeg';
+  outputImage: any = "assets/images/pexels-photo-2121640.jpeg";
   myForm!: FormGroup;
   file: File | null = null;
   percent:any = 0
